@@ -361,8 +361,7 @@ NSString *sessionsKey = @"sessions";
 
     PtyLog(@"initWithSmartLayout - initWithContentRect");
     // create the window programmatically with appropriate style mask
-    NSUInteger styleMask = NSTitledWindowMask |
-                           NSClosableWindowMask |
+    NSUInteger styleMask = NSClosableWindowMask |
                            NSMiniaturizableWindowMask |
                            NSResizableWindowMask |
                            NSTexturedBackgroundWindowMask;
